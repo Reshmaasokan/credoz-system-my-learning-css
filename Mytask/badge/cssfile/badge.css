@@ -1,6 +1,8 @@
 .avatar{
     position: relative;
-    box-shadow: 0 4px 10px gray; 
+    border:2px;
+    border-color: gray;
+    border-style: solid;
     border-radius: 25px;
 }
 
@@ -42,7 +44,7 @@ img{
     /*border: 2px;
     border-color: black;
     border-style: solid;*/
-    width:1000px
+    width:auto;
 }
 
 .details{
@@ -58,11 +60,22 @@ p{
     display: flex;
     justify-content: center;
 }
+
+button:hover{
+    box-shadow: 0 4px 10px gray; 
+
+}
 button{
     display: block;
     margin: auto;
     background-color: blue;
     color:white;
     width:75px;
-    height: 25px;
+    height: 35px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.avatar:hover{
+     box-shadow: 0 4px 10px gray; 
 }
